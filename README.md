@@ -4,6 +4,7 @@ Implementation for calculating the value of π based on Python.
 # Method
 ## Monte Carlo
 ![](monte_carlo.png)
+
 There is an inscribed circle in the square of 1 × 1. Randomly scatter points into the square area (the total number of scattered points is recorded as `S`). For each point, the probability of falling in the circle is: $\frac {\pi \cdot 0.5^2}{1×1}=0.25\pi$，After the scatter ends, count the number of points it falls in the circle, and write it down as N.
 
 In general, with the increase in the number of experiments, the frequency will be close to the probability. 

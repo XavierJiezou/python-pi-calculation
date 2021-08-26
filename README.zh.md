@@ -3,7 +3,8 @@
 圆周率（Pi）是圆的周长与直径的比值，一般用希腊字母 π 表示，是数学中最重要和最奇妙的数字之一。本文教你如何使用 Python 编程实现圆周率的简单计算。
 # 计算
 ## 蒙特卡罗法
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0d9f5653a3304371915897f1d0df63fa.png?x-oss-process=image,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
+![](monte_carlo.png)
+
 1×1 的正方形里面有一个内切圆。向该正方形区域内随机散点（散点总数记为 S），对于每一个点，其落在圆内的概率是：$\frac {\pi \cdot 0.5^2}{1×1}=0.25\pi$，散点结束后，统计其落在圆内的点数，并记为 N。
 
 一般来说，随着实验次数的增多，频率会接近于概率。当实验次数趋向于无穷时，频率的极限就是概率。
